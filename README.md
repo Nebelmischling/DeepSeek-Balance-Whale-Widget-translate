@@ -1,4 +1,4 @@
-# DSH Little Whale Accounting Widget (DeepSeek Balance Whale Widget)
+# DSH Little Whale Accounting Widget
 
 ![DSH Little Whale Accounting Widget](assets/DSH2.png)
 
