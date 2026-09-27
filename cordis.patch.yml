@@ -1,13 +1,15 @@
 # ============================================================================
 # dsh-whale-widget —— DSH bundle patch
 # ============================================================================
-# 这是插件的"挂载声明"。DSH 启动时按 bundle 层栈叠加各插件 patch，
-# 本文件会把鲸鱼余额挂件插入 Web profile 的配置树。
+# This is the plugin's "mount declaration". When DSH starts, it applies each
+# plugin patch according to the bundle layer stack.
+# This file inserts the whale balance widget into the Web profile's
+# configuration tree.
 #
-# 安装方式（不再需要手工复制/手工改 profile patch）：
+# Installation method (manual copying / manual profile patch editing is no longer required):
 #   dsh plugin --profile web add dsh-whale-widget
-# 或本地开发安装：
-#   dsh plugin --profile web add link:<本目录绝对路径>
+# Or for local development:
+#   dsh plugin --profile web add link:<absolute path to this directory>
 # ============================================================================
 
 - insert:
